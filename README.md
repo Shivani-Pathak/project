@@ -1,21 +1,13 @@
-# about finding the missing number in the array
-def missingNumber( A, N):
-    
-    s=sum(A)
-    orgs=int((N*(N+1))/2)
-    return orgs - s
+# Laptop Price Pedictor
 
-def main():
+•	It predicts the price of a laptop by providing necessary details of the laptop a person needs like
+    - Company 
+    - Processor
+    - RAM 
+    - Memoory size & type(SSD, HDD)
+    - OS
+    - Screen Resolutions
+•	Packages used: Pandas, NumPy, Scikit, seaborne.
+•	For website used streamline with local hosts.
+•	Used language: python
 
-    T = int(input())
-
-    while(T > 0):
-        n = int(input())
-        a = [int(x) for x in input().strip().split()]
-        print(missingNumber(a, n))
-
-        T -= 1
-
-
-if __name__ == "__main__":
-    main()
