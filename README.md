@@ -15,3 +15,7 @@
 
 •	Used language: python
 
+# Business Development Analysis
+
+I was given the data of employees with there work timing, leads and other necessary details. I had to analyse there working pattern and find out the prediction for next month.
+Also based on the graphs and dashboard I need to suggest the ideas for increasing the productivity.
